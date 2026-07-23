@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of Jedgs Vincent S. Calma, a BSIT student and web developer.">
+  <meta name="theme-color" content="#07111f">
+  <title>Jedgs Calma — Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="logo" href="#home" aria-label="Jedgs Calma home">
+      <span>J</span>EDGS<span class="logo-dot">.</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-list" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <nav aria-label="Main navigation">
+      <ul id="nav-list" class="nav-list">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </nav>
+    <a class="header-cta" href="#experience">My background <span>↓</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one" aria-hidden="true"></div>
+      <div class="hero-glow glow-two" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> BSIT Student · Full-Stack Developer</p>
+        <h1>Building thoughtful<br>web experiences<br><em>with purpose.</em></h1>
+        <p class="hero-description">
+          I'm <strong>Jedgs Vincent S. Calma</strong> — an IT student and web
+          full-stack developer focused on creating responsive interfaces, reliable APIs,
+          secure authentication, and user-friendly web applications.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#about">Explore my profile <span>↓</span></a>
+          <a class="text-link" href="#experience">View experience <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <div class="portrait-orbit" aria-hidden="true"><span></span></div>
+          <div class="star-field" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <img src="assets/images/jedgs-cutout.png" alt="Professional portrait of Jedgs Vincent S. Calma" width="1088" height="1450">
+          <div class="name-stamp"><span>Jedgs Vincent</span><strong>Calma</strong></div>
+        </div>
+        <div class="availability"><i></i> Open to opportunities</div>
+      </div>
+      <div class="tech-stack" aria-label="Core technologies">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+      </div>
+
+      <div class="hero-footer">
+        <p>Based in the <strong>Philippines</strong></p>
+        <div class="scroll-cue"><span></span> Scroll to discover</div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label reveal"><span>01</span> About me</div>
+      <div class="about-grid">
+        <div class="about-heading reveal">
+          <p class="overline">More than just code</p>
+          <h2>Student mindset.<br><em>Builder energy.</em></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">
+            I'm a second-year <strong>Bachelor of Science in Information Technology</strong>
+            student at <strong>National University</strong>.
+          </p>
+          <p>
+            I enjoy building clean, functional web experiences and continuously
+            sharpening my skills through hands-on projects. For me, great development
+            lives where thoughtful design, solid code, and real user needs meet.
+          </p>
+          <div class="stats">
+            <div><strong>2nd</strong><span>Year BSIT</span></div>
+            <div><strong>NU</strong><span>National University</span></div>
+            <div><strong>100%</strong><span>Curious & driven</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-label reveal"><span>02</span> What I do</div>
+      <div class="section-intro reveal">
+        <div>
+          <p class="overline">Tools &amp; Stacks</p>
+          <h2>My developer<br><em>toolbox.</em></h2>
+        </div>
+        <p>I combine technical foundations with a sharp eye for detail to build web experiences that work beautifully on every screen.</p>
+      </div>
+      <div class="tech-showcase reveal" aria-label="Tools, technologies, and development stacks">
+        <article class="tech-item" style="--delay: 0">
+          <span class="tech-mark"><img src="assets/icons/html5.svg" alt="" width="28" height="28"></span><div><strong>HTML</strong><small>Structure</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 1">
+          <span class="tech-mark"><img src="assets/icons/css.svg" alt="" width="28" height="28"></span><div><strong>CSS</strong><small>Styling</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 2">
+          <span class="tech-mark"><img src="assets/icons/javascript.svg" alt="" width="28" height="28"></span><div><strong>JavaScript</strong><small>Language</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 3">
+          <span class="tech-mark"><img src="assets/icons/php.svg" alt="" width="28" height="28"></span><div><strong>PHP</strong><small>Back end</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 4">
+          <span class="tech-mark"><img src="assets/icons/typescript.svg" alt="" width="28" height="28"></span><div><strong>TypeScript</strong><small>Language</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 5">
+          <span class="tech-mark"><img src="assets/icons/react.svg" alt="" width="28" height="28"></span><div><strong>React.js</strong><small>Front end</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 6">
+          <span class="tech-mark"><img src="assets/icons/nodedotjs.svg" alt="" width="28" height="28"></span><div><strong>Node.js</strong><small>Runtime</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 7">
+          <span class="tech-mark"><img src="assets/icons/laravel.svg" alt="" width="28" height="28"></span><div><strong>Laravel</strong><small>Framework</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 8">
+          <span class="tech-mark"><img src="assets/icons/openjdk.svg" alt="" width="28" height="28"></span><div><strong>Java</strong><small>Language</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 9">
+          <span class="tech-mark"><img src="assets/icons/cplusplus.svg" alt="" width="28" height="28"></span><div><strong>C++</strong><small>Language</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 10">
+          <span class="tech-mark"><img src="assets/icons/github.svg" alt="" width="28" height="28"></span><div><strong>GitHub</strong><small>Version control</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 11">
+          <span class="tech-mark"><img src="assets/icons/c.svg" alt="" width="28" height="28"></span><div><strong>C</strong><small>Language</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 12">
+          <span class="tech-mark"><img src="assets/icons/mysql.svg" alt="" width="28" height="28"></span><div><strong>MySQL</strong><small>Database</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 13">
+          <span class="tech-mark"><img src="assets/icons/vercel.svg" alt="" width="28" height="28"></span><div><strong>Vercel</strong><small>Deployment</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 14">
+          <span class="tech-mark"><img src="assets/icons/api.svg" alt="" width="28" height="28"></span><div><strong>REST APIs</strong><small>Integration</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 15">
+          <span class="tech-mark"><img src="assets/icons/jwt.svg" alt="" width="28" height="28"></span><div><strong>JWT Auth</strong><small>Security</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 16">
+          <span class="tech-mark"><img src="assets/icons/email-automation.svg" alt="" width="28" height="28"></span><div><strong>Auto Email</strong><small>Automation</small></div>
+        </article>
+        <article class="tech-item" style="--delay: 17">
+          <span class="tech-mark"><img src="assets/icons/sms.svg" alt="" width="28" height="28"></span><div><strong>SMS Alerts</strong><small>Notifications</small></div>
+        </article>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card reveal">
+          <span class="card-number">01</span>
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Full-Stack Development</h3>
+          <p>Building responsive interfaces and dependable back-end systems with clean, maintainable code.</p>
+          <div class="tags"><span>React.js</span><span>TypeScript</span><span>JavaScript</span></div>
+        </article>
+        <article class="skill-card featured reveal">
+          <span class="card-number">02</span>
+          <div class="skill-icon">✦</div>
+          <h3>Responsive Design</h3>
+          <p>Creating layouts that feel natural and look sharp from mobile to desktop.</p>
+          <div class="tags"><span>Mobile-first</span><span>UI/UX</span><span>Accessibility</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="card-number">03</span>
+          <div class="skill-icon">{ }</div>
+          <h3>Problem Solving</h3>
+          <p>Breaking complex challenges into practical, efficient digital solutions.</p>
+          <div class="tags"><span>Node.js</span><span>Laravel</span><span>PHP</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="section-label reveal"><span>03</span> Experience</div>
+      <div class="experience-grid">
+        <div class="experience-title reveal">
+          <p class="overline">The journey so far</p>
+          <h2>Learning by<br><em>building.</em></h2>
+          <p>Every project is a chance to learn, refine, and make something better than yesterday.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-meta"><span>Present</span><span>National University</span></div>
+            <h3>BS Information Technology</h3>
+            <p>Building a strong foundation in programming, information systems, web technologies, and collaborative problem-solving.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-meta"><span>Experience</span><span>Full-Stack Development</span></div>
+            <h3>Full-Stack Developer</h3>
+            <p>Creating responsive web applications, APIs, secure authentication flows, and automated notification features through hands-on development work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-inner reveal">
+        <p class="eyebrow"><span></span> Ready for the next opportunity</p>
+        <h2>Let's create<br><em>real impact.</em></h2>
+        <p>I'm ready to contribute, learn from a professional team, and bring care and curiosity to every project.</p>
+        <a class="btn btn-light" href="#top">Back to the top <span>↑</span></a>
+      </div>
+      <div class="contact-watermark" aria-hidden="true">JEDGS</div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#top"><span>J</span>EDGS<span class="logo-dot">.</span></a>
+    <p>Designed & built with purpose.</p>
+    <p>© <span id="year"></span> Jedgs Vincent S. Calma</p>
+  </footer>
+</body>
+</html>
